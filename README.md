@@ -15,7 +15,7 @@ google-spreadsheet-demo is the ionic project, which uses google spreadsheet as d
 # Gets started with app!!!
 
   - You dont need to create new project just clone this project
-  - Fire this command (Assuming you have already installed npm, ionic and cordova:
+  - Fire this command (Assuming you have already installed npm, ionic and cordova)
 ```sh
 $ npm install
 $ ionic platform add android
