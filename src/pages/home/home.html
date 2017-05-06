@@ -1,0 +1,27 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>COUNTRY LIST</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <div *ngFor="let item of spData?.items">
+    <ion-card >
+      <ion-card-header>
+        <h1>{{item.Country}} </h1>
+      </ion-card-header>
+      <ion-card-content>
+        <!-- Add card content here! -->
+        <li><b>Region: </b>{{item.Region}}</li>
+        <li><b>Population: </b> {{item.Region}}</li>
+        <li><b>Area: </b> {{item.Area}} sq.mi</li>
+        <li><b>GDP: </b> {{item.GDP}}</li>
+        <li><b>Literacy: </b> {{item.Literacy}}</li>
+        <li><b>Crops: </b> {{item.Crops}}</li>
+        <li><b>Birthrate: </b> {{item.Birthrate}}</li>
+        <li><b>Industry: </b> {{item.Industry}}</li>
+        <li><b>Service: </b> {{item.Service}}</li>
+      </ion-card-content>
+    </ion-card>
+  </div>
+</ion-content>
