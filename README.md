@@ -22,7 +22,7 @@ $ ionic platform add android
 $ ionic run android
 ```
 
-Now you all have done!!!
+Now you have all done!!!
 Enjoy Coding :)
 
 License
